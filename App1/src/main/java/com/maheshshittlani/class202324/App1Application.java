@@ -2,13 +2,14 @@ package com.maheshshittlani.class202324;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class App1Application {
 
 	public static void main(String[] args) {
 		
-		var context = SpringApplication.run(App1Application.class, args);
+		ApplicationContext context = SpringApplication.run(App1Application.class, args);
 		
 		int[] arr1 = {33,22,66,34,12,89,67};
 		

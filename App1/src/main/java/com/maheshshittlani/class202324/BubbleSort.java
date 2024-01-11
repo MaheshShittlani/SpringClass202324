@@ -1,5 +1,10 @@
 package com.maheshshittlani.class202324;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
 public class BubbleSort implements SortAlgo {
 	public void sort(int[] arr) {
 		int n = arr.length;
