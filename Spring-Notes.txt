@@ -1,0 +1,14 @@
+1. Spring Framework
+    - Spring is a dependency injection Framework which makes JAVA EE developement faster.
+
+2. What is dependency
+    - Example:
+3. What is dependency injection
+    - It is a design pattern
+4. Spring IoC Container
+    - Functions of IOC Container
+5. ApplicationContext & BeanFactory
+    - ClasspathXMLApplicationContext
+    - AnnotactionConfigApplicationContext
+    - FileSystemXMLApplicationContext
+
