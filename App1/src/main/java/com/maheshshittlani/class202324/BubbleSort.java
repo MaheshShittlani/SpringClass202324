@@ -1,6 +1,6 @@
 package com.maheshshittlani.class202324;
 
-public class BubbleSort {
+public class BubbleSort implements SortAlgo {
 	public void sort(int[] arr) {
 		int n = arr.length;
 		int t;

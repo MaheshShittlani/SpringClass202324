@@ -1,9 +1,14 @@
 package com.maheshshittlani.class202324;
 
 public class CustomBinarySearch {
+	private SortAlgo sortAlgo;
+	
+	public CustomBinarySearch(SortAlgo sortAlgo) {
+		super();
+		this.sortAlgo = sortAlgo;
+	}
+
 	public void search(int[] arr, int item) {
-		BubbleSort sortAlgo = new BubbleSort();
-//		SelectionSort sortAlgo = new SelectionSort();
 		sortAlgo.sort(arr);
 		System.out.println(sortAlgo);
 		
