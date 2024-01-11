@@ -1,5 +1,8 @@
 package com.maheshshittlani.class202324;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SelectionSort implements SortAlgo {
 	public void sort(int[] arr) {
 		int n = arr.length;

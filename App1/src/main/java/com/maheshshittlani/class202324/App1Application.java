@@ -7,17 +7,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class App1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(App1Application.class, args);
+		
+		var context = SpringApplication.run(App1Application.class, args);
 		
 		int[] arr1 = {33,22,66,34,12,89,67};
 		
-		CustomBinarySearch searchAlgo1 = new CustomBinarySearch(new BubbleSort());
+		CustomBinarySearch searchAlgo1 = context.getBean(CustomBinarySearch.class);
 		searchAlgo1.search(arr1, 34);
 		
 		
 		int[] arr2 = {33,21,61,341,112,189,617};
 		
-		CustomBinarySearch searchAlgo2 = new CustomBinarySearch(new SelectionSort());
+		CustomBinarySearch searchAlgo2 = context.getBean(CustomBinarySearch.class);
 		searchAlgo2.search(arr2, 112);
 	}
 

@@ -1,6 +1,11 @@
 package com.maheshshittlani.class202324;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class CustomBinarySearch {
+	@Autowired
 	private SortAlgo sortAlgo;
 	
 	public CustomBinarySearch(SortAlgo sortAlgo) {
