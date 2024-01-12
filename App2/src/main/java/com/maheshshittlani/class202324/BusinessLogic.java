@@ -1,9 +1,11 @@
 package com.maheshshittlani.class202324;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component
+@Lazy
 public class BusinessLogic {
 	@Autowired
 	private Dependency1 dependency1;
@@ -12,10 +14,12 @@ public class BusinessLogic {
 	
 	
 //	@Autowired - default
-//	public BusinessLogic(Dependency1 dependency1, Dependency2 dependency2) {
-//		this.dependency1 = dependency1;
-//		this.dependency2 = dependency2;
-//	}
+	public BusinessLogic(Dependency1 dependency1, Dependency2 dependency2) {
+		this.dependency1 = dependency1;
+		this.dependency2 = dependency2;
+		
+		System.out.println("Intitalization done");
+	}
 	
 //	@Autowired
 //	public void setDependency1(Dependency1 dependency1) {

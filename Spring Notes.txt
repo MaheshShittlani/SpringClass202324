@@ -339,7 +339,7 @@ Eager Intialization of Spring Beans
         - All @Bean methods within the @Configuration will be lazily initialized.
 
 Heading             Lazy initialization                     Eager initialization
----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------
 initialization time Use of the bean                         Application Startup
 
 Default             No                                      Yes
@@ -362,7 +362,7 @@ Spring Bean Scope
     - Singleton: One object instance per spring IOC container
     - Prototype: Possibly many object instance per Spring IOC container
 
-    - Scope application only for web Spring ApplicationContext
+- Scope application only for web Spring ApplicationContext
         - Request - One object instance per single HTTP request object
         - Session - One object instance per user HTTP session
         - Application - One object instance per web application runtime
@@ -392,9 +392,9 @@ scenario
 
 ### `Example` - Explain @PostConstruct and @PreDestroy
 
-#####################################################################
-##########Spring Streotype annontation @Component and more...########
-#####################################################################
+######################################################################
+########## Spring Streotype annontation @Component and more...########
+######################################################################
 
 @Component - Generic annotation applicable for any class.
     - Base for all spring stereotype annontation
