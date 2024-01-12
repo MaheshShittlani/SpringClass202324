@@ -1,7 +1,9 @@
-package com.maheshshittlani.class202324;
+package com.maheshshittlani.class202324.searchUtil;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import com.maheshshittlani.class202324.sorting.SortAlgo;
 
 @Component
 public class CustomBinarySearch {
@@ -12,6 +14,13 @@ public class CustomBinarySearch {
 		super();
 		this.sortAlgo = sortAlgo;
 	}
+	
+	public CustomBinarySearch() {
+		super();
+	}
+
+
+
 
 	public void search(int[] arr, int item) {
 		sortAlgo.sort(arr);

@@ -4,6 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+import com.maheshshittlani.class202324.searchUtil.CustomBinarySearch;
+import com.maheshshittlani.class202324.searchUtil.FindNthSmallest;
+
 @SpringBootApplication
 public class App1Application {
 
@@ -21,6 +24,14 @@ public class App1Application {
 		
 		CustomBinarySearch searchAlgo2 = context.getBean(CustomBinarySearch.class);
 		searchAlgo2.search(arr2, 112);
+		
+		
+		int[] arr3 = {5,1,9,8,7,65,81};
+		
+		FindNthSmallest smallestAlgo = context.getBean(FindNthSmallest.class);
+		int result =  smallestAlgo.find(arr3, 3);
+		
+		System.out.println("Third smallest value: " + result);
 	}
 
 }

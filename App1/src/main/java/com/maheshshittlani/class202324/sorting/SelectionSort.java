@@ -1,8 +1,10 @@
-package com.maheshshittlani.class202324;
+package com.maheshshittlani.class202324.sorting;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
+@Qualifier("selectionSortAlgo")
 public class SelectionSort implements SortAlgo {
 	public void sort(int[] arr) {
 		int n = arr.length;
