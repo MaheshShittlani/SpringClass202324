@@ -281,7 +281,7 @@ Important Terminology
 2. Dependency
 3. @ComponentScan: How does spring framework find the component class. By default it search into the current package. if you want to specify the other package for component scan, you can specify the package name along with the component scan. if the package name is given in the component scan then the package and subpackage are scanned for components.
 4. Dependency injection - Identify beans and their dependency and wire them together. (Provide IOC - Inverstion of control)
-    4.1 Spring Beans`
+    4.1 Spring Beans
     4.2 IOC Container
         4.2.1 - ApplicationContext (Mostly used)
         4.2.2 - BeanFactory

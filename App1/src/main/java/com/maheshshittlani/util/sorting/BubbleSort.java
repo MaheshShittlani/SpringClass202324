@@ -1,4 +1,4 @@
-package com.maheshshittlani.class202324.sorting;
+package com.maheshshittlani.util.sorting;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;

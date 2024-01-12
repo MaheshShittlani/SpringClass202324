@@ -1,13 +1,15 @@
 package com.maheshshittlani.class202324;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
-import com.maheshshittlani.class202324.searchUtil.CustomBinarySearch;
-import com.maheshshittlani.class202324.searchUtil.FindNthSmallest;
+import com.maheshshittlani.util.searchUtil.CustomBinarySearch;
+import com.maheshshittlani.util.searchUtil.FindNthSmallest;
 
-@SpringBootApplication
+@Configuration
+@ComponentScan(".;com.maheshshittlani.util.searchUtil;com.maheshshittlani.util.sorting;")
 public class App1Application {
 
 	public static void main(String[] args) {

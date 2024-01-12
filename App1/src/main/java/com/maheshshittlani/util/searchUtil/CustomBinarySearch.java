@@ -1,9 +1,9 @@
-package com.maheshshittlani.class202324.searchUtil;
+package com.maheshshittlani.util.searchUtil;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.maheshshittlani.class202324.sorting.SortAlgo;
+import com.maheshshittlani.util.sorting.SortAlgo;
 
 @Component
 public class CustomBinarySearch {
