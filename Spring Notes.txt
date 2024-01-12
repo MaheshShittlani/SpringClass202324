@@ -141,7 +141,7 @@ class Cook {
 
 ``Note``
 ---------------
-Autowiring types
+Autowiring types / Dependency injection types
 ---------------------
     1. Constructor based Autowiring (Constructor injection) #used for mandatory dependency
     2. Setter based Autowiring (Setter injection) #used for optional dependency
@@ -326,7 +326,7 @@ Eager Intialization of Spring Beans
 ---------------------------------------------
 -Default initialization for Spring beans: `Eager initialization`
 
--#Example to demonstrate defalut intialization and change with lazy initialization.
+-#Example to demonstrate default intialization and change with lazy initialization.
 
 - Eager initialization is recommended...
     - Errors in the configuration are discovered immediately at application startup.
