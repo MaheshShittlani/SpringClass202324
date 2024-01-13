@@ -491,7 +491,24 @@ Hierachy
 -------------
     Spring Projects  > Spring Framework > Spring Modules
 
-    
+JDBC API
+------------------
+- Lots of SQL queries
+- Lost of java code to execute that sql Queries
+
+Spring DATA JDBC
+-----------------
+- Lots of SQL queries
+- Less java code.
+
+Spring JPA (JAVA persitance API)
+-----------------------------------
+ - No SQL Query
+ - Less JAVA Code 
+
+Spring Data JPA
+-----------------------
+ - Make Spring JPA More easier
 
 Intorduction to Maven
 ---------------------------
